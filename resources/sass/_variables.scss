@@ -6,29 +6,33 @@ $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
-:root{
-    --color-primary-light: #c699c3;
+
+:root {
+    --color-primary-light: #c69963;
     --color-primary-dark: #b28451;
-    --color-gray-dark: #777;
-    --color-gray-light:#c69963;
-    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .7);
+    --color-gray-dark-1: #777;
+    --color-grey-light-2: #C69963;
+    --color-gray-dark-2: #2C3E50;
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .7)
 }
+
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: inherit;
 }
 
-html{
+html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
-a{
+a {
     text-decoration: none;
 }
-body{
-    font-family: "Open Sans", sans-serif;
+
+body {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-gray-dark-1);
